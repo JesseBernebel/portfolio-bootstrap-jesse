@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+ header h1 {
+
+color: white;  
+
+ }
 body,
 html {
   width: 100%;
@@ -84,7 +89,7 @@ header{
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #ff6666
 }
 
 .scroll-to-top i {
@@ -134,8 +139,10 @@ element.style {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #ff6666;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 300;
 }
 
 .sidebar-nav {
@@ -213,7 +220,7 @@ element.style {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #66cccc;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -306,6 +313,8 @@ element.style {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: #66cccc;
+  color: #fff;
 }
 
 footer.footer .social-link {
@@ -356,6 +365,9 @@ a:hover, a:focus, a:active {
 
 .btn-dark {
   color: #fff !important;
+  background-color: #ff6666;
+  border-color:  #ff6666;
+
 }
 
 .btn {
@@ -364,7 +376,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #cc0066 !important;
 }
 
 .text-primary {
@@ -373,4 +385,9 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.text-muted {
+  color: white!important;
+  font-family: 'Roboto', sans-serif;
 }
