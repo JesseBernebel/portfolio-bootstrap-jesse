@@ -68,21 +68,39 @@ header{
 position: relative;
 
 
+
 }
 #jesse{
   color: white!important;
   position: absolute;
-  top: 60px;
-  padding-left: 250px;
-  padding-right: 100px;
+  top: 30px;
+  right: 200px;
+  left:150px;
+ 
   text-align: center;
   
 }
+@media (min-width: 100%) {
+  #jesse {
+    height: 100%;
+    color: white!important;
+    position: absolute;
+    top: 60px;
+   right: 20px;
+    text-align: center;
+  }
+}
+
+
 #jesse2{
   color: white!important;
   position: absolute;
-  top: 200px;
-  padding-left: 300px;
+  right: 20px;
+  left:20px;
+  top:170px;
+  
+  
+  
   
 }
 .map iframe {
