@@ -63,10 +63,26 @@ header{
     height: 75%;
   }
 }
+
+header{
+position: relative;
+
+
+}
 #jesse{
   color: white!important;
+  position: absolute;
+  top: 100px;
+  padding-left: 250px;
+  
 }
-
+#jesse2{
+  color: white!important;
+  position: absolute;
+  top: 200px;
+  padding-left: 310px;
+  
+}
 .map iframe {
   pointer-events: none;
 }
@@ -391,3 +407,4 @@ a:hover, a:focus, a:active {
   color: white!important;
   font-family: 'Roboto', sans-serif;
 }
+
