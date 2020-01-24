@@ -72,15 +72,16 @@ position: relative;
 #jesse{
   color: white!important;
   position: absolute;
-  top: 100px;
+  top: 60px;
   padding-left: 250px;
+  padding-right: 100px;
   
 }
 #jesse2{
   color: white!important;
   position: absolute;
   top: 200px;
-  padding-left: 310px;
+  padding-left: 300px;
   
 }
 .map iframe {
